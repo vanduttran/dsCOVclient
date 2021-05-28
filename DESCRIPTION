@@ -1,0 +1,18 @@
+Package: dsCOVclient
+Title: Client Side Functions to run rCCA algorithm.
+Version: 0.1.0
+Authors@R: 
+    person(given = "Van Du T.",
+           family = "Tran",
+           role = c("aut", "cre"),
+           email = "thuong.tran@sib.swiss",
+           comment = c(ORCID = "0000-0003-2074-5029"))
+Depends: DSI, DSOpal, CCA
+Imports: bigmemory, parallel
+Description: Client side functions to run rCCA algorithm.
+AggregateMethods:
+    dsrCCA
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
