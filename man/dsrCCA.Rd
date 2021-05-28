@@ -28,7 +28,7 @@ ycoef coefficient matrix for y dataset
 
 cv list containing canonical variates for x dataset (cvx) and y dataset (cvy)
 
-loadings list of loading matrices: load.xx for cor(cvx, x), load.yy for cor(cvy, y),load.xy for cor(cvx, y), load.yx for cor(cvy,x)#' @export
+loadings list of loading matrices: load.xx for cor(cvx, x), load.yy for cor(cvy, y),load.xy for cor(cvx, y), load.yx for cor(cvy,x)
 }
 \description{
 Federated rCCA

@@ -9,7 +9,8 @@
 #' @return xcoef coefficient matrix for x dataset
 #' @return ycoef coefficient matrix for y dataset
 #' @return cv list containing canonical variates for x dataset (cvx) and y dataset (cvy)
-#' @return loadings list of loading matrices: load.xx for cor(cvx, x), load.yy for cor(cvy, y),load.xy for cor(cvx, y), load.yx for cor(cvy,x)#' @export 
+#' @return loadings list of loading matrices: load.xx for cor(cvx, x), load.yy for cor(cvy, y),load.xy for cor(cvx, y), load.yx for cor(cvy,x) 
+#' @export 
 dsrCCA <- function(logindata,Var, Varx, Vary, lambda1 = 0, lambda2 = 0) {
 
   opals <- datashield.login(logins=logindata)
