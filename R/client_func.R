@@ -1,5 +1,5 @@
 #' @title Federated rCCA
-#' @param logindata 
+#' @param logindata loginInfo
 #' @param Var string of the selected colnames to be analyzed
 #' @param Varx string containing the colnames for the x dataset
 #' @param Vary string containing the colnames for the y dataset

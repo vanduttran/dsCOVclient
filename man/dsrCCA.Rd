@@ -7,7 +7,7 @@
 dsrCCA(logindata, Var, Varx, Vary, lambda1 = 0, lambda2 = 0)
 }
 \arguments{
-\item{logindata}{}
+\item{logindata}{loginInfo}
 
 \item{Var}{string of the selected colnames to be analyzed}
 
